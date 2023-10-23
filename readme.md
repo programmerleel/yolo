@@ -8,8 +8,6 @@
 
 ### yolo-v3
 
-- yolov3-ghostdarknet
-  - 使用yolov5文件中的yolov3.yaml文件为基础，将backbone中的conv与bottleneck替换为ghostconv与ghostbottleneck
-  - 模型的参数量受益于ghostnet的轻量化，相较于yolov3的参数量缩减约60%
-  - 使用模型训练trash数据集（过拟合）
+- yolov3-darknet
+  - 本身不是很想写v3版本的，但是考虑到v3算是后面yolo系列的一个起始点，算是为自己做一个复习
 
